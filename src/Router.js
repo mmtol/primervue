@@ -3,6 +3,7 @@ import HomeComponent from './components/HomeComponent.vue'
 import CineComponent from './components/CineComponent.vue'
 import MusicaComponent from './components/MusicaComponent.vue'
 import CicloVida from './components/CicloVida.vue'
+import DirectivasComponent from './components/DirectivasComponent.vue'
 
 //array con las rutas
 const rutas=
@@ -22,6 +23,10 @@ const rutas=
     {
         path:"/ciclovida",
         component:CicloVida
+    },
+    {
+        path:"/directivas",
+        component:DirectivasComponent
     }
 ]
 

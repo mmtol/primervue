@@ -13,6 +13,9 @@
             <li>
                 <router-link to="/ciclovida">Ciclo vida</router-link>
             </li>
+            <li>
+                <router-link to="/directivas">Directivas</router-link>
+            </li>
         </ul>
     </div>
 </template>
