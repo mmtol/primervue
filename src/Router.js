@@ -4,6 +4,7 @@ import CineComponent from './components/CineComponent.vue'
 import MusicaComponent from './components/MusicaComponent.vue'
 import CicloVida from './components/CicloVida.vue'
 import DirectivasComponent from './components/DirectivasComponent.vue'
+import ParImpar from './components/ParImpar.vue'
 
 //array con las rutas
 const rutas=
@@ -27,6 +28,10 @@ const rutas=
     {
         path:"/directivas",
         component:DirectivasComponent
+    },
+    {
+        path:"/parimpar",
+        component:ParImpar
     }
 ]
 
