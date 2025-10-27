@@ -22,6 +22,9 @@
              <li>
                 <router-link to="/propiedadconmutada">Propiedad conmutada</router-link>
             </li>
+             <li>
+                <router-link to="/metodosfilters">Metodos filters</router-link>
+            </li>
         </ul>
     </div>
 </template>

@@ -6,6 +6,7 @@ import CicloVida from './components/CicloVida.vue'
 import DirectivasComponent from './components/DirectivasComponent.vue'
 import ParImpar from './components/ParImpar.vue'
 import PropiedadConmutada from './components/PropiedadConmutada.vue'
+import MetodosFilters from './components/MetodosFilters.vue'
 
 //array con las rutas
 const rutas=
@@ -37,6 +38,10 @@ const rutas=
     {
         path:"/propiedadconmutada",
         component:PropiedadConmutada
+    },
+    {
+        path:"/metodosfilters",
+        component:MetodosFilters
     }
 ]
 
