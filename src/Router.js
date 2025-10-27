@@ -5,6 +5,7 @@ import MusicaComponent from './components/MusicaComponent.vue'
 import CicloVida from './components/CicloVida.vue'
 import DirectivasComponent from './components/DirectivasComponent.vue'
 import ParImpar from './components/ParImpar.vue'
+import PropiedadConmutada from './components/PropiedadConmutada.vue'
 
 //array con las rutas
 const rutas=
@@ -32,6 +33,10 @@ const rutas=
     {
         path:"/parimpar",
         component:ParImpar
+    },
+    {
+        path:"/propiedadconmutada",
+        component:PropiedadConmutada
     }
 ]
 
